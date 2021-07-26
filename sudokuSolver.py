@@ -86,7 +86,7 @@ def isSolved(grid):
 
 size = 0
 while (size!=4 and size!=9):
-    size = int(input("Enter the size of the puzzle"))
+    size = int(input("Enter the size of the puzzle: "))
 grid = [[0 for rows in range(size)] for cols in range(size)]
 print("Enter the values with no spaces in between each number, and use 0 for a blank cell.")
 for i in range(size):
